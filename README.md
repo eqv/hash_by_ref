@@ -1,7 +1,7 @@
 # HashByRef
 
-This is a small helper crate to use `Rc<T>` as hash keys where equality is supposed to be determined by the object's
-identity (i.e. by the value of the pointer). It provides a type `HashByRef<T>` that can be used as key in the hashmap.
+This is a small helper crate to use `Rc<T>` as hash keys where equality is supposed to be determined by the underlaying
+reference identity (i.e. by the value of the pointer). It provides a type `HashByRef<T>` that can be used as key in the hashmap.
 
 
 ## Quick Start

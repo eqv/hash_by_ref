@@ -3,4 +3,15 @@ name = "hash_by_ref"
 version = "0.1.0"
 authors = ["coco <coco@hexgolems.com>"]
 
+description = "A simple NewType that wraps Rc<T> and allows to use the reference identity/pointer value of Rc<T> as keys in hashmap"
+
+# These URLs point to more information about the repository
+#documentation = "..."
+repository = "https://github.com/eqv/hash_by_ref"
+#homepage = "..."
+
+keywords = ["hash", "reference-identity", "rc", "reference","identity"]
+
+license-file = "LICENSE"
+
 [dependencies]
